@@ -1,0 +1,19 @@
+{
+	"name": "ADPCosmosDB_NYCImageMetadata",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADPCosmosDB",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Week8"
+		},
+		"annotations": [],
+		"type": "CosmosDbSqlApiCollection",
+		"schema": {},
+		"typeProperties": {
+			"collectionName": "ImageMetadata"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

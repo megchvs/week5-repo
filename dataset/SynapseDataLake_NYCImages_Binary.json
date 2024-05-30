@@ -1,0 +1,21 @@
+{
+	"name": "SynapseDataLake_NYCImages_Binary",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "synapsedatalake",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Week8"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "nycimages"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

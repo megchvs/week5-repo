@@ -1,0 +1,21 @@
+{
+	"name": "MDWResources_NYCImages_Binary",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "MDWResources",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Week8"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "nyc-images"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
